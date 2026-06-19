@@ -1,6 +1,6 @@
 
 
-# 🏝️ IMC Prosperity 4 — Trading Strategies
+# IMC Prosperity 4 — Trading Strategies
 
 My algorithmic trading solutions for [IMC Prosperity 4]
 ## 📁 Repository Structure
