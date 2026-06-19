@@ -1,0 +1,132 @@
+U = EV - 1/2 * lambda * variance
+
+=== lambda frontier (summary) ===                                                                             
+      lambda        E[PnL]           std    std/√100   Sharpe  P(score>0)                                                                                                                 
+     1.0e-09       163,773     3,283,435     328,344     0.50      0.6910                                                                                                                 
+     1.0e-08       152,842     2,212,584     221,258     0.69      0.7551                                                                                                                 
+     1.0e-07        71,223       646,414      64,641     1.10      0.8647                                                                                                                 
+     5.0e-07        42,622       262,543      26,254     1.62      0.9477                                                                                                                 
+     1.0e-06        34,391       172,209      17,221     2.00      0.9771                                                                                                                 
+     2.0e-06        20,347       100,865      10,086     2.02      0.9782                                                                                                                 
+                                                                                                                                                                                          
+  === per-lambda detail ===                                                                                                                                                               
+                                                                                                                                                                                          
+  --- lambda = 1e-09 ---                                                                                                                                                                  
+    E[PnL]   =      163,773                                                                                                                                                               
+    std PnL  =    3,283,435   (single path)                                                                                                                                               
+    std mean =      328,344   (over 100 scoring paths)                                                                                                                                    
+    Sharpe (score) = 0.50                                                                                                                                                                 
+    P(score>0) over 100 trials = 0.6910                                                                                                                                                   
+    positions (rounded):                                                                                                                                                                  
+      'AC_45_P   ':   +20,                                                                                                                                                                
+      'AC_50_P_2 ':   +50,                                                                                                                                                                
+      'AC_50_C_2 ':   +50,                                                                                                                                                                
+      'AC_50_CO  ':   -50,                                                                                                                                                                
+      'AC_40_BP  ':   -50,                                                                                                                                                                
+      'AC_45_KO  ':  +500,                                                                                                                                                                
+                                                                                                                                                                                          
+  --- lambda = 1e-08 ---                                                                                                                                                                  
+    E[PnL]   =      152,842                                                                                                                                                               
+    std PnL  =    2,212,584   (single path)                                                                                                                                               
+    std mean =      221,258   (over 100 scoring paths)                                                                                                                                    
+    Sharpe (score) = 0.69                                                                                                                                                                 
+    P(score>0) over 100 trials = 0.7551                                                                                                                                                   
+    positions (rounded):                                                                                                                                                                  
+      'AC_50_C   ':   +33,                                                                                                                                                                
+      'AC_45_P   ':   +50,                                                                                                                                                                
+      'AC_50_P_2 ':   +50,                                                                                                                                                                
+      'AC_50_C_2 ':   +32,                                                                                                                                                                
+      'AC_50_CO  ':   -50,                                                                                                                                                                
+      'AC_40_BP  ':   -50,                                                                                                                                                                
+      'AC_45_KO  ':  +500,                                                                                                                                                                
+                                                                                                                                                                                          
+  --- lambda = 1e-07 ---                                                                                                                                                                  
+    E[PnL]   =       71,223                                                                                                                                                               
+    std PnL  =      646,414   (single path)                                                                                                                                               
+    std mean =       64,641   (over 100 scoring paths)                                                                                                                                    
+    Sharpe (score) = 1.10                                                                                                                                                                 
+    P(score>0) over 100 trials = 0.8647                                                                                                                                                   
+    positions (rounded):                                                                                                                                                                  
+      'AC_50_P   ':   +11,                                                                                                                                                                
+      'AC_50_C   ':   +23,                                                                                                                                                                
+      'AC_35_P   ':   -38,                                                                                                                                                                
+      'AC_45_P   ':   +50,                                                                                                                                                                
+      'AC_50_P_2 ':   +18,                                                                                                                                                                
+      'AC_50_C_2 ':    +6,                                                                                                                                                                
+      'AC_50_CO  ':   -26,                                                                                                                                                                
+      'AC_40_BP  ':   -50,                                                                                                                                                                
+      'AC_45_KO  ':   +98,                                                                                                                                                                
+                                                                                                                                                                                          
+  --- lambda = 5e-07 ---                                                                                                                                                                  
+    E[PnL]   =       42,622                                                                                                                                                               
+    std PnL  =      262,543   (single path)                                                                                                                                               
+    std mean =       26,254   (over 100 scoring paths)                                                                                                                                    
+    Sharpe (score) = 1.62                                                                                                                                                                 
+    P(score>0) over 100 trials = 0.9477                                                                                                                                                   
+    positions (rounded):                                                                                                                                                                  
+      'AC_50_P   ':   +24,                                                                                                                                                                
+      'AC_50_C   ':   +11,                                                                                                                                                                
+      'AC_35_P   ':   -47,                                                                                                                                                                
+      'AC_40_P   ':    -1,                                                                                                                                                                
+      'AC_45_P   ':   +29,                                                                                                                                                                
+      'AC_60_C   ':    -7,                                                                                                                                                                
+      'AC_50_P_2 ':    +6,                                                                                                                                                                
+      'AC_50_C_2 ':    +2,                                                                                                                                                                
+      'AC_50_CO  ':    -7,                                                                                                                                                                
+      'AC_40_BP  ':   -50,                                                                                                                                                                
+      'AC_45_KO  ':   +33,                                                                                                                                                                
+      'AC        ':    +2,                                                                                                                                                                
+                                                                                                                                                                                          
+  --- lambda = 1e-06 ---                                                                                                                                                                  
+    E[PnL]   =       34,391                                                                                                                                                               
+    std PnL  =      172,209   (single path)                                                                                                                                               
+    std mean =       17,221   (over 100 scoring paths)                                                                                                                                    
+    Sharpe (score) = 2.00                                                                                                                                                                 
+    P(score>0) over 100 trials = 0.9771                                                                                                                                                   
+    positions (rounded):                                                                                                                                                                  
+      'AC_50_P   ':    +1,                                                                                                                                                                
+      'AC_50_C   ':    +3,                                                                                                                                                                
+      'AC_35_P   ':   -49,                                                                                                                                                                
+      'AC_45_P   ':   +50,                                                                                                                                                                
+      'AC_50_P_2 ':    +2,                                                                                                                                                                
+      'AC_50_C_2 ':    +1,                                                                                                                                                                
+      'AC_50_CO  ':    -3,                                                                                                                                                                
+      'AC_40_BP  ':   -47,                                                                                                                                                                
+      'AC_45_KO  ':   +13,                                                                                                                                                                
+                                                                                                                                                                                          
+  --- lambda = 2e-06 ---                                                                                                                                                                  
+    E[PnL]   =       20,347                                                                                                                                                               
+    std PnL  =      100,865   (single path)                                                                                                                                               
+    std mean =       10,086   (over 100 scoring paths)                                                                                                                                    
+    Sharpe (score) = 2.02                                                                                                                                                                 
+    P(score>0) over 100 trials = 0.9782                                                                                                                                                   
+    positions (rounded):                                                                                                                                                                  
+      'AC_35_P   ':   -32,                                                                                                                                                                
+      'AC_45_P   ':   +34,                                                                                                                                                                
+      'AC_50_P_2 ':    +1,                                                                                                                                                                
+      'AC_50_CO  ':    -1,                                                                                                                                                                
+      'AC_40_BP  ':   -28,                                                                                                                                                                
+      'AC_45_KO  ':    +7,                                                                                                                                                                
+      'AC        ':    +2,                                                                                                                                                                
+                                                                                                                                                                                          
+    saved manual/pnl_per_lambda.png                                                                                                                                                       
+                                                                                                                                                                                          
+  === bootstrap score (B = 100,000 draws of 100) ===                                                                                                                                      
+      lambda          mean           std           min          0.1%            1%            5%           50%           95%           max      P>0   Pgauss        max_dd                
+  worst_path                                                                                                                                                                              
+     1.0e-09       164,293       328,794    -1,435,614      -902,835      -613,294      -376,541       165,960       703,721     1,569,624   0.6947   0.6910     1,435,614                
+  -84,307,610                                                                                                                                                                             
+     1.0e-08       153,704       221,200      -702,779      -473,539      -325,808      -196,577       145,762       530,161     1,228,675   0.7521   0.7551       702,779                
+  -23,435,773                                                                                                                                                                             
+     1.0e-07        71,005        64,741      -169,813      -114,740       -72,463       -32,341        68,967       180,556       371,892   0.8652   0.8647       169,813                
+  -3,199,845                                                                                                                                                                              
+     5.0e-07        42,723        26,199       -58,901       -33,260       -15,737           818        42,149        86,782       195,776   0.9531   0.9477        58,901                
+  -956,585                                                                                                                                                                                
+     1.0e-06        34,404        17,183       -40,359       -17,895        -4,943         6,609        34,188        62,985       115,489   0.9792   0.9771        40,359                
+  -758,128                                                                                                                                                                                
+     2.0e-06        20,314        10,081       -22,045       -11,148        -2,995         3,889        20,228        37,085        65,246   0.9788   0.9782        22,045     
+
+
+
+
+     
